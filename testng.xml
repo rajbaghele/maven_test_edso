@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/LENOVO/IdeaProjects/Maven_Project_edso">
+        <classes>
+            <class name="AlwaysRun.Example1">
+                <methods>
+                    <include name="method2"/>
+                </methods>
+            </class>
+            <class name="annotation.AnnotationMethods">
+                <methods>
+                    <include name="tC01"/>
+                    <include name="tC02"/>
+                </methods>
+            </class>
+            <class name="annotation.DependOnGroup">
+                <methods>
+                    <include name="method"/>
+                    <include name="method2"/>
+                </methods>
+            </class>
+            <class name="annotation.DependOnMethodExample">
+                <methods>
+                    <include name="method1"/>
+                    <include name="method2"/>
+                </methods>
+            </class>
+            <class name="annotation.PriortyClass">
+                <methods>
+                    <include name="tC_A"/>
+                    <include name="tC_B"/>
+                    <include name="tC_C"/>
+                    <include name="tC_D"/>
+                    <include name="tC_E"/>
+                    <include name="tC_F"/>
+                    <include name="tC_G"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
